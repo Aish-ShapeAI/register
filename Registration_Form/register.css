@@ -1,0 +1,54 @@
+body{
+    background-image: url('box1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    background-image: url('box.jpg');
+    align-items: center;
+   border-style:double;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:soft-light;
+    color: rgb(16, 206, 174);
+    margin-left: 20%;
+    margin-right:20%;
+    padding:60px;
+}
+
+a{
+    color:rgb(198, 233, 102);
+}
+
+button {
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(28, 184, 44);
+    touch-action: pinch-zoom;
+}
+
+input[ type=text],select,textarea {
+    padding: 10px;
+}
+
+input[type=integer] {
+    padding: 10px;
+}
+
+input[type=email] {
+    padding: 10px;
+}
+input[type=date] {
+    padding: 10px;
+}
+input[type=password] {
+    padding: 10px;
+}
+
+h1{ 
+    color:rgb(198, 233, 102);
+    font-style:italic;
+}
